@@ -102,3 +102,25 @@ input[type="radio"]:checked {
 .mt-2{
     margin-top: 2rem;
 }
+
+.doom-button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.doom-button img {
+    display: block;
+    width: 180px;
+    height: auto;
+    transition: transform 0.15s ease;
+}
+
+.doom-button:hover img {
+    transform: scale(1.05);
+}
+
+.doom-button:active img {
+    transform: scale(0.95);
+}
