@@ -1,6 +1,12 @@
 body {
     background: #1e4d3f;
-    color: #dddddd;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: #ddd;
     margin: 0;
     padding: 20px;
     text-align: center;
